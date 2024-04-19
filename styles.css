@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2c3e50, #34495e); /* Subtle dark green-blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* White text for contrast */
+}
+
+.thankyou-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 90%;
+    backdrop-filter: blur(10px); /* Adds a subtle blur effect behind the container */
+}
+
+.signature h2 {
+    margin-top: 10px;
+    color: #abb7b7; /* Soft light gray for signature */
+}
+
+.signature p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #ccd1d1; /* Slightly lighter gray for text */
+}
+
+h1 {
+    color: #ecf0f1; /* Bright but soft white */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}

@@ -1,179 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-    <title>Help us !! Discover the Plants Around You</title>
-    <style>
-      /* Global Styles */
-body {
-    font-family: 'Arial', sans-serif; /* Consistent font throughout the page */
-    background-color: #f4f4f4; /* Light grey background for less strain on the eyes */
-    margin: 0;
-    padding: 20px;
-    color: #333; /* Dark grey text for readability */
-}
-
-.container {
-    max-width: 800px; /* Maximum width of the form container */
-    margin: auto; /* Center the container on the page */
-    background: #fff; /* White background for the form area */
-    padding: 20px;
-    border-radius: 8px; /* Rounded corners for the form container */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
-}
-
-h1 {
-    color: #2c662d; /* Dark green color to match the plant theme */
-    text-align: center;
-    margin-bottom: 20px; /* Space below the header */
-}
-
-label {
-    font-weight: bold; /* Makes labels bold */
-    display: block; /* Each label on a new line */
-    margin: 10px 0 5px; /* Space above and below labels */
-}
-
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-    width: 100%; /* Full width inputs */
-    padding: 8px; /* Padding inside inputs */
-    margin-bottom: 10px; /* Space below each input */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 4px; /* Rounded borders for inputs */
-}
-
-textarea {
-    height: 100px; /* Fixed height for textareas */
-}
-
-input[type="submit"] {
-    background-color: #4CAF50; /* Green background for the submit button */
-    color: white; /* White text inside the button */
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 16px;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049; /* Slightly darker green on hover */
-}
-
-/* Handling the CKEditor specifically */
-.cke_textarea_inline {
-    border: 1px solid #ccc; /* Border for consistency */
-    border-radius: 4px; /* Rounded borders */
-    padding: 10px; /* Padding for content inside editor */
-}
-
-    </style>
-    
-  </head>
-  <body>
-    <div class="container">
-      <h1>Help Us !! Discover the Plants Around You</h1>
-      <!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
-<!--  If necessary, please modify the charset parameter to specify the        -->
-<!--  character set of your HTML page.                                        -->
-<!--  ----------------------------------------------------------------------  -->
-
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <FORM> element to your page.             -->
-<!--  ----------------------------------------------------------------------  -->
-
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5i00000EVqf6" method="POST">
-
-<input type=hidden name="oid" value="00D5i00000EVqf6">
-<input type=hidden name="retURL" value="https://mayurpatle.github.io/thankyou-/">
-
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-<!--  these lines if you wish to test in debug mode.                          -->
-<!--  <input type="hidden" name="debug" value=1>                              -->
-<!--  <input type="hidden" name="debugEmail"                                  -->
-<!--  value="mayurpatle108@gmail.com">                                        -->
-<!--  ----------------------------------------------------------------------  -->
-
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-
-<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
-
-<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
-
-Plant Name:<input  id="00N5i00000V5rbs" maxlength="100" name="00N5i00000V5rbs" size="20" type="text" /><br>
-
-Plant Images:<input type="file" id="plant_images" name="plant_images" accept="image/png, image/jpeg"><script>CKEDITOR.timestamp = '4.18.0.11';
-var protocolAndHost = window.location.protocol + '//' + window.location.host;
-
-var editor = CKEDITOR.replace('00N5i00000V5rbxEAB', {
-removePlugins : 'elementspath,maximize,image,tabletools,liststyle,contextmenu,resize',
-baseHref : protocolAndHost + '/ckeditor/ckeditor-4.x/rel/',
-customConfig : '/ckeditor/ckeditor-4.x/rel/sfdc-config.js',
-height : '425',
-bodyId : '00N5i00000V5rbxEAB_rta_body',
-toolbar : 'SalesforceBasic',
-sfdcLabels :{CkeLineHeight : { doubleValue : 'Double', secondValue : '1.15', singleValue : 'Single', thirdValue : '1.5', title : 'Line Height'}, CkeCodeBlock : { addCodeSample : 'Add a code sample'}, CkeQuickText : { title : 'Insert quick text'}, CkeMediaEmbed : { description : 'Use &lt;iframe&gt; code from an approved video source.', example : '\n            \n                &lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/KcOm0TNvKBA\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;\n            \n        ', exampleTitle : 'Example:', iframeMissing : 'Invalid &lt;iframe&gt; element. Please use valid code from the approved sites.', subtitle : 'Paste &amp;lt;iframe&amp;gt; code here:', title : 'Embed Multimedia Content'}, CkeImageMenu : { pasteUrl : 'Paste Image URL', title : 'Insert images into your message', uploadCms : 'Salesforce CMS', uploadFile : ' Browse or Upload', uploadSFFile : 'Salesforce Files', uploadUrl : 'Web Image'}, CkeImagePaste : { CkeImagePasteWarning : 'Pasting an image is not working properly with Firefox, please use [Copy Image location] instead.'}, CkeImageDialog : { btn_insert : 'Insert', btn_insert_tooltip : 'Insert Image', btn_upadte : 'Update', btn_update : 'Update', btn_update_tooltip : 'Update Image', defaultImageDescription : 'User-added image', error : 'Error:', httpUrlWarning : 'Are you sure you want to use an http URL? Using http image URLs may result in security warnings about insecure content. To avoid these warnings, use https image URLs instead.', imageUploadLimit_info : 'Max number of upload images exceeded', infoTab : 'Web Address', infoTab_desc : 'Description', infoTab_desc_info : 'Enter a description of the image for visually impaired users', infoTab_url : 'URL', infoTab_url_info : 'Example: http://www.mysite.com/myimage.jpg', invalidUrlError : 'You can only use http:, https:, data:, //, /, or relative URL schemes.', missingUrlError : 'You must enter a URL', title : 'Insert Image', uploadTab : 'Upload Image', uploadTab_desc : 'Description', uploadTab_desc_info : 'Enter a description of the image for visually impaired users', uploadTab_file : 'Select Image', uploadTab_file_info : 'Maximum size 1 MB. Only PNG, GIF or JPEG', wrongFileTypeError : 'You can insert only .gif .jpeg and .png files.'}, sfdcSwitchToText : { sfdcSwitchToTextAlt : 'Use plain text'}, CkeSmartLink : { SmartLinkContextMenuEdit : 'Edit Smart Link', title : 'Insert a Smart Link'}},
-contentsCss: ['/ckeditor/ckeditor-4.x/rel/contents.css', '/sCSS/60.0/sprites/1705602480000/Theme3/default/base/CKEditor.css', '/sCSS/60.0/sprites/1705602480000/Theme3/default/base/HtmlDetailElem.css'],
-disableNativeSpellChecker : false,
-language : 'en-US',
-allowIframe : false,
-isPardotOrg : false,
-isCmsOnly : false,
-sharedSpaces : { top : 'cke_topSpace', bottom : ' cke_bottomSpace' }
-,filebrowserImageUploadUrl : '/_ui/common/request/servlet/RtaImageUploadServlet?_CONFIRMATIONTOKEN=VmpFPSxNakF5TkMwd05DMHlNbFF4TlRvd056b3lOaTR6TWpWYSx4dm5LVTZGbEdHZFNiSkIyTl9SWUhOTm5EZW00ZEhxenE3OXhtRTlmVUswPSxOR0ZtTXpjMg=='
-});
-
-editor.on('instanceReady', function( evt ) {
-    try {
-        var id = evt.editor.name;
-        CKiframe = document.getElementById('cke_' + id).querySelector('iframe');
-        meta = document.createElement('meta');
-        meta.setAttribute('name', 'referrer');
-        meta.setAttribute('content', 'no-referrer');
-        CKiframe.contentDocument.head.appendChild(meta);
-    } catch(e) {}
-} );
-
-</script><br>
-
-Skin Uses:<textarea  id="00N5i00000V5rc2" name="00N5i00000V5rc2" rows="3" type="text" wrap="soft"></textarea><br>
-
-Diseases Cured:<textarea  id="00N5i00000V5rc7" name="00N5i00000V5rc7" rows="3" type="text" wrap="soft"></textarea><br>
-
-Effectivity:<select  id="00N5i00000V5rcC" name="00N5i00000V5rcC" title="Effectivity"><option value="">--None--</option><option value="Low">Low</option>
-<option value="Moderate">Moderate</option>
-<option value="High">High</option>
-<option value="Extremely  High">Extremely  High</option>
-</select><br>
-
-Sideeffects ?:<select  id="00N5i00000V5rcH" name="00N5i00000V5rcH" title="Sideeffects ?"><option value="">--None--</option><option value="Yes">Yes</option>
-<option value="No">No</option>
-</select><br>
-
-Found Area:<input  id="00N5i00000V5rcM" maxlength="100" name="00N5i00000V5rcM" size="20" type="text" /><br>
-
-<label for="mobile">Mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
-
-<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-
-<input type="submit" value="submit"> 
-      
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Visiting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="thankyou-container">
+        <h1>Thank You!</h1>
+        <p>We greatly appreciate your visit and look forward to seeing you again soon.</p>
+        <div class="signature">
+            <p>Warm Regards,</p>
+            <h2>MMRA</h2>
+        </div>
     </div>
-  </body>
+</body>
 </html>
-
 
